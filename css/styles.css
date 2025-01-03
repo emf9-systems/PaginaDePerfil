@@ -1,0 +1,255 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Simpsons_Homer_DuffCursor.png), default !important;
+}
+
+button, a {
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Simpsons_Duff_BeerPointer.png), pointer !important;
+}
+
+.top {
+    background-color: #333333;
+}
+
+.nav {
+    width: 100vw;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 2em;
+}
+
+.btn {
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    margin: 0 0 0 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+}
+
+.header {
+    background-color: #ffd90f;
+    height: 100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.profile{
+    padding-left: 2em;
+}
+
+.profile img {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: -50px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 0 2em 2em 2em;
+}
+
+.content h1, #correccion div h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5em;
+}
+
+.content p, #correccion div p {
+    color: #666;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background-color: #424242;
+    color: white;
+}
+
+
+.row {
+    display: flex;
+    gap: 5em;
+    margin: 2em;
+}
+
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.avatar-s {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 1em;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.formato {
+    margin: .67em;
+}
+
+.col .card{
+    padding: 1em;
+}
+
+#correccion{
+    padding: 1em;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+/* botones */
+
+
+.boton{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#div2, #div3{
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+    padding: 0.1em 0.1em;
+    border-radius: 2em;
+    justify-content: center;
+    align-items: center; 
+}
+
+#div2{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(128, 255, 136);
+    color: rgb(128, 255, 136);
+}
+
+#div3{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 110, 110);
+    color: rgb(255, 110, 110);
+}
+
+#div2:hover, #div3:hover{
+    transform: scale(1.15);
+    border: 1px solid rgb(202, 202, 202);
+    color: rgb(255, 255, 255);
+}
+
+
+#div2:hover{
+    background-color: rgb(128, 255, 136);
+
+}
+
+#div3:hover{
+    background-color: rgb(255, 110, 110);
+}
+
+.end{
+    gap: 0.67em;
+}
+
+img{
+    object-fit: cover;
+}
